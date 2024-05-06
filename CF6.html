@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cakes Page</title>
+<style>
+/* Inside the CSS styles */
+.cakes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  margin: 10px; /* Adjust margin as needed */
+}
+
+.column img {
+  width: 100%;
+  border-radius: 15px; /* Curved borders */
+}
+/* Inside the CSS styles */
+.cake-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.cake-item img {
+  width: 100%;
+  transition: transform 0.5s;
+}
+
+.cake-item:hover img {
+  transform: scale(1.1);
+}
+
+.cake-details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  color: white;
+  transition: bottom 0.5s;
+  transform: translateY(100%);
+}
+
+.cake-item:hover .cake-details {
+  bottom: 0;
+  transform: translateY(0);
+}
+
+.cake-details h3, .cake-details p {
+  margin: 5px 0;
+}
+
+.cake-details button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.cake-details button:hover {
+  background-color: #45a049;
+}
+
+</style>
+</head>
+<body>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cakes Page</title>
+
+</head>
+<body>
+
+<div class="cakes-container">
+  <!-- First Row -->
+  <div class="row">
+    <div class="column">
+      <div class="cake-item">
+        <img src="rv1.jpg" alt="Cake 1">
+        <div class="cake-details">
+          <h3>Name: Eggless red Velvet cake</h3>
+          <p>Price: Rs 895</p>
+          <p>Rating: 4.9</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="cake-item">
+        <img src="rv2.jpg" alt="Cake 2">
+        <div class="cake-details">
+          <h3>Name: Red Velvet Valentine cake</h3>
+          <p>Price: Rs 745</p>
+          <p>Rating: 5</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <!-- Add more columns for other cakes -->
+    <div class="column">
+      <div class="cake-item">
+        <img src="rv3.jpg" alt="Cake 3">
+        <div class="cake-details">
+          <h3>Name: Sparkling Velvety Cake</h3>
+          <p>Price: Rs 949</p>
+          <p>Rating: 4.8</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="cake-item">
+        <img src="rv4.jpg" alt="Cake 4">
+        <div class="cake-details">
+          <h3>Name: Chocolate Velvety Poster cake</h3>
+          <p>Price: Rs 1095 </p>
+          <p>Rating: 5</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Second Row -->
+  <div class="row">
+    <!-- Add more columns for other cakes -->
+    <div class="column">
+      <div class="cake-item">
+        <img src="rv5.jpg" alt="Cake 5">
+        <div class="cake-details">
+          <h3>Name: Enchanting Heart Shaped Red Velvet Cake</h3>
+          <p>Price: Rs 895</p>
+          <p>Rating: 4.7</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="cake-item">
+        <img src="rv6.jpg" alt="Cake 6">
+        <div class="cake-details">
+          <h3>Name: Hearty Dainty Red Velvet cake</h3>
+          <p>Price: Rs 745</p>
+          <p>Rating: 5</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+   <div class="column">
+      <div class="cake-item">
+        <img src="rv7.jpg" alt="Cake 7">
+        <div class="cake-details">
+          <h3>Name: Red Velvety Jar Cake</h3>
+          <p>Price: Rs 599</p>
+          <p>Rating: 4.8</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="cake-item">
+        <img src="rv8.jpg" alt="Cake 8">
+        <div class="cake-details">
+          <h3>Name: Oreo Red velvet cake</h3>
+          <p>Price: Rs 1349</p>
+          <p>Rating: 4.9</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Third Row -->
+  <div class="row">
+    <div class="column">
+      <div class="cake-item">
+        <img src="rv9.jpg" alt="Cake 9">
+        <div class="cake-details">
+          <h3>Name: red Velvet cream cake with Foundant Balls</h3>
+          <p>Price: Rs 945</p>
+          <p>Rating: 4.6</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="cake-item">
+        <img src="rv10.jpg" alt="Cake 10">
+        <div class="cake-details">
+          <h3>Name: Romantic Red Velvet cupcake duo with Hearts</h3>
+          <p>Price: Rs 345</p>
+          <p>Rating: 4.6</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="cake-item">
+        <img src="rv11.jpg" alt="Cake 11">
+        <div class="cake-details">
+          <h3>Name: desirable Red Velvet Delight </h3>
+          <p>Price: Rs 795</p>
+          <p>Rating: 4.9</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="cake-item">
+        <img src="rv12.jpg" alt="Cake 12">
+        <div class="cake-details">
+          <h3>Name: Chocolate Velvet Fusion Cake</h3>
+          <p>Price: Rs 899</p>
+          <p>Rating: 4.8</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+</body>
+</html>

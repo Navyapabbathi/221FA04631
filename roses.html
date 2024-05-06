@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cakes Page</title>
+<style>
+/* Inside the CSS styles */
+.cakes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  margin: 10px; /* Adjust margin as needed */
+}
+
+.column img {
+  width: 100%;
+  border-radius: 15px; /* Curved borders */
+}
+/* Inside the CSS styles */
+.cake-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.cake-item img {
+  width: 100%;
+  transition: transform 0.5s;
+}
+
+.cake-item:hover img {
+  transform: scale(1.1);
+}
+
+.cake-details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  color: white;
+  transition: bottom 0.5s;
+  transform: translateY(100%);
+}
+
+.cake-item:hover .cake-details {
+  bottom: 0;
+  transform: translateY(0);
+}
+
+.cake-details h3, .cake-details p {
+  margin: 5px 0;
+}
+
+.cake-details button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.cake-details button:hover {
+  background-color: #45a049;
+}
+
+</style>
+</head>
+<body>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cakes Page</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="cakes-container">
+  <!-- First Row -->
+  <div class="row">
+    <div class="column">
+      <div class="cake-item">
+        <img src="rs1.jpg" alt="Cake 1">
+        <div class="cake-details">
+          <h3>Name: 10 Red Roses Bouquet</h3>
+          <p>Price: Rs 645</p>
+          <p>Rating: 4.9</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="cake-item">
+        <img src="rs2.jpg" alt="Cake 2">
+        <div class="cake-details">
+          <h3>Name: Love in A Glass Vase</h3>
+          <p>Price: Rs 1195</p>
+          <p>Rating: 4.9</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <!-- Add more columns for other cakes -->
+    <div class="column">
+      <div class="cake-item">
+        <img src="rs3.jpg" alt="Cake 3">
+        <div class="cake-details">
+          <h3>Name: Love At  First Sight</h3>
+          <p>Price: Rs 895</p>
+          <p>Rating: 5</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="cake-item">
+        <img src="rs4.jpg" alt="Cake 4">
+        <div class="cake-details">
+          <h3>Name: Whispers Of Purity</h3>
+          <p>Price: Rs 1295</p>
+          <p>Rating: 4.6</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Second Row -->
+  <div class="row">
+    <!-- Add more columns for other cakes -->
+    <div class="column">
+      <div class="cake-item">
+        <img src="rs5.jpg" alt="Cake 5">
+        <div class="cake-details">
+          <h3>Name: Sunrise Serenade Bouquet</h3>
+          <p>Price: Rs 1195</p>
+          <p>Rating: 4.5</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="cake-item">
+        <img src="rs6.jpg" alt="Cake 6">
+        <div class="cake-details">
+          <h3>Name: Flowery Pink Whispers</h3>
+          <p>Price: Rs 745</p>
+          <p>Rating: 4.8</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+   <div class="column">
+      <div class="cake-item">
+        <img src="rs7.jpg" alt="Cake 7">
+        <div class="cake-details">
+          <h3>Name: Vase Of Elegant Pink Roses</h3>
+          <p>Price: Rs 1045</p>
+          <p>Rating: 5</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="cake-item">
+        <img src="rs8.jpg" alt="Cake 8">
+        <div class="cake-details">
+          <h3>Name: Kiss From A Rose</h3>
+          <p>Price: Rs 845</p>
+          <p>Rating: 4.7</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div></div>
+<div class="column">
+      <div class="cake-item">
+        <img src="rs9.jpg" alt="Cake 7">
+        <div class="cake-details">
+          <h3>Name: Two Dozen Roses Bunch</h3>
+          <p>Price: Rs 1245</p>
+          <p>Rating: 4.9</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+<div class="column">
+      <div class="cake-item">
+        <img src="rs10.jpg" alt="Cake 7">
+        <div class="cake-details">
+          <h3>Name: The Perfect Night Sky</h3>
+          <p>Price: Rs 745</p>
+          <p>Rating: 5</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+<div class="column">
+      <div class="cake-item">
+        <img src="rs111.jpg" alt="Cake 7">
+        <div class="cake-details">
+          <h3>Name: Ethereal 20 Roses Meldey</h3>
+          <p>Price: Rs 1345</p>
+          <p>Rating: 4.9</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+<div class="column">
+      <div class="cake-item">
+        <img src="rs12.jpg" alt="Cake 7">
+        <div class="cake-details">
+          <h3>Name: Golden Rose Symphony Of Ethereal</h3>
+          <p>Price: Rs 2195</p>
+          <p>Rating: 4.7</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+  </div>
+ 
+  </div>
+</div>
+
+</body>
+</html>
+
+</body>
+</html>

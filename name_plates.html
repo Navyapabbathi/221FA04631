@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cakes Page</title>
+<style>
+/* Inside the CSS styles */
+.cakes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  margin: 10px; /* Adjust margin as needed */
+}
+
+.column img {
+  width: 100%;
+  border-radius: 15px; /* Curved borders */
+}
+/* Inside the CSS styles */
+.cake-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.cake-item img {
+  width: 100%;
+  transition: transform 0.5s;
+}
+
+.cake-item:hover img {
+  transform: scale(1.1);
+}
+
+.cake-details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  color: white;
+  transition: bottom 0.5s;
+  transform: translateY(100%);
+}
+
+.cake-item:hover .cake-details {
+  bottom: 0;
+  transform: translateY(0);
+}
+
+.cake-details h3, .cake-details p {
+  margin: 5px 0;
+}
+
+.cake-details button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.cake-details button:hover {
+  background-color: #45a049;
+}
+
+</style>
+</head>
+<body>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cakes Page</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="cakes-container">
+  <!-- First Row -->
+  <div class="row">
+    <div class="column">
+      <div class="cake-item">
+        <img src="np1.jpg" alt="Cake 1">
+        <div class="cake-details">
+          <h3>Name:bhvhfvhcv</h3>
+          <p>Price: $10</p>
+          <p>Rating: 4.5</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="cake-item">
+        <img src="np2.jpg" alt="Cake 2">
+        <div class="cake-details">
+          <h3>Name: Cake 2</h3>
+          <p>Price: $12</p>
+          <p>Rating: 4.2</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <!-- Add more columns for other cakes -->
+    <div class="column">
+      <div class="cake-item">
+        <img src="np3.jpg" alt="Cake 3">
+        <div class="cake-details">
+          <h3>Name: Cake 3</h3>
+          <p>Price: $15</p>
+          <p>Rating: 4.8</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="cake-item">
+        <img src="np4.jpg" alt="Cake 4">
+        <div class="cake-details">
+          <h3>Name: Cake 4</h3>
+          <p>Price: $18</p>
+          <p>Rating: 4.6</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Second Row -->
+  <div class="row">
+    <!-- Add more columns for other cakes -->
+    <div class="column">
+      <div class="cake-item">
+        <img src="np5.jpg" alt="Cake 5">
+        <div class="cake-details">
+          <h3>Name: Cake 5</h3>
+          <p>Price: $20</p>
+          <p>Rating: 4.3</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="cake-item">
+        <img src="np6.jpg" alt="Cake 6">
+        <div class="cake-details">
+          <h3>Name: Cake 6</h3>
+          <p>Price: $22</p>
+          <p>Rating: 4.7</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+   <div class="column">
+      <div class="cake-item">
+        <img src="np7.jpg" alt="Cake 7">
+        <div class="cake-details">
+          <h3>Name: Cake 7</h3>
+          <p>Price: $25</p>
+          <p>Rating: 4.4</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="cake-item">
+        <img src="np8.jpg" alt="Cake 8">
+        <div class="cake-details">
+          <h3>Name: Cake 8</h3>
+          <p>Price: $28</p>
+          <p>Rating: 4.9</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Third Row -->
+  <div class="row">
+    <div class="column">
+      <div class="cake-item">
+        <img src="np9.jpg" alt="Cake 9">
+        <div class="cake-details">
+          <h3>Name: Cake 9</h3>
+          <p>Price: $30</p>
+          <p>Rating: 4.2</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="cake-item">
+        <img src="np10.jpg" alt="Cake 10">
+        <div class="cake-details">
+          <h3>Name: Cake 10</h3>
+          <p>Price: $32</p>
+          <p>Rating: 4.6</p>
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+   
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+</body>
+</html>
